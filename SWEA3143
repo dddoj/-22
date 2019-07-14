@@ -6,7 +6,7 @@ public class Solution {
 	static int cnt;
 	static int n,m;
 
-	
+	//Array들 비교 map index = i, sub index = si. sub array가 map에 있으면 비교 끝난 index에서 다시 비교 시작, 아니면 다음 index에서 시작.
 	public static void solve(char[] map, char[] sub) {
 		cnt = 0;
 		int si = 0;
@@ -39,6 +39,7 @@ public class Solution {
         	String ss = sc.next();
         	n = s.length();
         	m = ss.length();
+		//map,sub array에 문자열 저장
         	char [] map = new char[n];
         	char [] sub = new char[m];
         	for(int i=0;i<n;i++)
