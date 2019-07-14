@@ -6,7 +6,7 @@ public class Solution {
 	static int cnt;
 	static int n,m;
 
-	
+	//map index = i, sub index = si. map과 sub을 비교, sub array가 map안에 있으면 비교 끝난 index부터 다시 비교시작, 아님 다음 index부터 시작. 비교끝난뒤 cnt++, si reset.
 	public static void solve(char[] map, char[] sub) {
 		cnt = 0;
 		int si = 0;
@@ -30,7 +30,7 @@ public class Solution {
 		}
 	}
 	
-	
+	//String to char Array
 	public static void main(String[] args) throws FileNotFoundException {
         Scanner sc = new Scanner(System.in);
         t = sc.nextInt();
