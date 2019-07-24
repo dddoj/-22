@@ -36,7 +36,7 @@ public class Solution_1245 {
 					for(int j = 0; j <= i; j++)
 						s += m[j] / ((mid - x[j]) * (mid - x[j]));
 					for (int j = i + 1; j < N; j++) 
-	                    s -= m[j] / ((mid - x[j]) * (mid - x[j]));
+	                    			s -= m[j] / ((mid - x[j]) * (mid - x[j]));
 					if(s > 0) {
 						l = mid;
 					}
