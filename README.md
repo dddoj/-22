@@ -43,3 +43,12 @@ boj11286 (절댓값 힙), boj16637 (괄호 추가하기)
 Minimum Spanning Tree
 
 백준 1249 , 1251
+
+08/18
+백준 17070 파이프 옮기기1
+swea 7250 탈출
+https://swexpertacademy.com/main/code/userProblem/userProblemDetail.do?contestProbId=AWlq-Cvq6joDFASP&categoryId=AWlq-Cvq6joDFASP&categoryType=CODE
+
+08/21
+
+08/25
