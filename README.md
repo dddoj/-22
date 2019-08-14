@@ -41,3 +41,5 @@ boj11286 (절댓값 힙), boj16637 (괄호 추가하기)
 깊이 우선 탐색(Depth First Search: DFS)
 너비 우선 탐색(Breadth First Search: BFS)
 Minimum Spanning Tree
+
+백준 1249 , 1251
