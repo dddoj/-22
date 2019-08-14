@@ -1,5 +1,5 @@
 
-# 동욱이네 -> 원철이네 공부방
+# 원철이네 공부방
 
 * [스터디 내용](#스터디-내용)
 * [과제](#과제)
@@ -58,7 +58,7 @@ https://swexpertacademy.com/main/code/userProblem/userProblemDetail.do?contestPr
 08/25
 
 
-[위로](#동욱이네 -> 원철이네 공부방)
+[위로](#원철이네-공부방)
 
 <br>
 
@@ -76,7 +76,7 @@ SWEA 1249 , 1251
 swea 7250 탈출
 https://swexpertacademy.com/main/code/userProblem/userProblemDetail.do?contestProbId=AWlq-Cvq6joDFASP&categoryId=AWlq-Cvq6joDFASP&categoryType=CODE
 
-[위로](#동욱이네 -> 원철이네 공부방)
+[위로](#원철이네-공부방)
 
 <br>
 
