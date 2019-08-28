@@ -57,6 +57,10 @@ https://swexpertacademy.com/main/code/userProblem/userProblemDetail.do?contestPr
 
 08/25
 
+8/28
+6190. 정곤이의 단조 증가하는 수
+3074. 입국심사
+
 
 [위로](#원철이네-공부방)
 
