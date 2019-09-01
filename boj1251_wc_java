@@ -1,0 +1,32 @@
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
+public class Main {
+
+	public static void main(String[] args) throws Exception {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		String input = br.readLine();
+		String first = "";
+		String second = "";
+		String last = "";
+		String makingStr = "";
+		String ans = "zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz";//가장 큰값으로 초기화(z 50번)
+		for (int i = 1; i < input.length()-1; i++) {//첫번째 문자열
+			for (int j = i+1; j < input.length(); j++) {//두번째 문자열
+				for (int k = j+1; k < input.length()+1; k++) {//마지막 문자열
+					first = input.substring(0, i);
+					second = input.substring(i, j);
+					last = input.substring(j, input.length());
+					makingStr = reverseString(first) + reverseString(second) + reverseString(last);
+					if(ans.compareTo(makingStr) > 0) {//makingStr이 ans보다 사전순으로 앞이면
+						ans = makingStr;
+					}
+				}
+			}
+		}
+		System.out.println(ans);
+	}//end of main
+	public static String reverseString(String s) {//리버스함수
+		return (new StringBuffer(s)).reverse().toString();
+	}
+}//end of class
