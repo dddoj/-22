@@ -176,6 +176,5 @@ int main()
             break;
         }
     }
-
     std::cout << answer << endl;
 }
